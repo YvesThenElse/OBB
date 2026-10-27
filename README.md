@@ -7,10 +7,10 @@ hooks, ses boucles, ses shells et ses outils, dans le temps.
 
 ![La ligne du temps d'une session à neuf agents](documentation/images/apercu.png)
 
-> L'enregistreur de vol d'un avion est **orange**, pas noir — on l'appelle boîte noire
-> parce qu'on ne sait pas ce qu'il y a dedans, pas parce qu'il est sombre. C'est tout le
-> propos : la boîte est là, elle a tout enregistré, et personne ne la regarde. OBB la
-> peint en orange.
+> **Orange** comme Claude. **Boîte noire** comme ce qu'est un agent pendant qu'il
+> travaille : on lui donne une consigne, il rend un résultat, et entre les deux personne
+> ne voit rien — ni les sous-agents qu'il a lancés, ni les outils qu'il a appelés, ni ce
+> qu'il a refait trois fois. C'est cette boîte-là que l'outil ouvre.
 >
 > L'outil ne pose aucune sonde dans Claude Code et ne détourne aucun appel : il **lit les
 > traces que Claude Code écrit déjà**. Rien n'est instrumenté, rien n'est modifié.
